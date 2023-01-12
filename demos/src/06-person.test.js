@@ -6,9 +6,9 @@ const imc = person.calcIMC();
 console.log(imc);
 
 // AAA
-// Arrange
-// Act
-// Assert
+// Arrange -> Preparar las condiciones previas
+// Act -> Ejecutar cada paso
+// Assert -> Resolver y verificar los resultados esperados
 
 describe("Test para Person", () => {
   let person;
