@@ -47,7 +47,7 @@ jobs:
       - name: Install
         shell: bash
         run: npm ci
-      - name: Run Unit test
+      - name: Run Unit e2e test
         shell: bash
         run: npm run test:e2e
         env:
